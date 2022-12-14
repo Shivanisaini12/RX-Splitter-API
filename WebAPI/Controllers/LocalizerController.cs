@@ -5,8 +5,7 @@ using Microsoft.Extensions.Localization;
 namespace WebAPI.Controllers
 {
     [Route("api/v{version:apiVersion}/[controller]")]
-    [ApiVersion("1.0")]
-    [ApiVersion("2.0")]
+    [ApiVersion("0.0")]
     [ApiController]
     public class LocalizerController : ControllerBase
     {

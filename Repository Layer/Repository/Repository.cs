@@ -1,4 +1,4 @@
-﻿using DomainLayer.Data;
+﻿//using DomainLayer.Data;
 using DomainLayer.Models;
 using Microsoft.EntityFrameworkCore;
 using Repository_Layer.IRepository;
@@ -13,11 +13,11 @@ namespace Repository_Layer.Repository
     public class Repository<T> : IRepository<T> where T : BaseEntity
     {
         #region property
-        private readonly ApplicationDbContext _applicationDbContext;
+        private readonly RxSplitterContext _applicationDbContext;
         private DbSet<T> entities;
         #endregion
         #region Constructor
-        public Repository(ApplicationDbContext applicationDbContext)
+        public Repository(RxSplitterContext applicationDbContext)
         {
             _applicationDbContext = applicationDbContext;
             entities = _applicationDbContext.Set<T>();

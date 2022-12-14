@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OnionArchitecture\\WebAPI\\Service Layer\\Service Layer.csproj": {}
+    "D:\\Rx-Splitter\\RX-Splitter-API\\Service Layer\\Service Layer.csproj": {}
   },
   "projects": {
-    "D:\\OnionArchitecture\\WebAPI\\DomainLayer\\DomainLayer.csproj": {
+    "D:\\Rx-Splitter\\RX-Splitter-API\\DomainLayer\\DomainLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OnionArchitecture\\WebAPI\\DomainLayer\\DomainLayer.csproj",
+        "projectUniqueName": "D:\\Rx-Splitter\\RX-Splitter-API\\DomainLayer\\DomainLayer.csproj",
         "projectName": "DomainLayer",
-        "projectPath": "D:\\OnionArchitecture\\WebAPI\\DomainLayer\\DomainLayer.csproj",
+        "projectPath": "D:\\Rx-Splitter\\RX-Splitter-API\\DomainLayer\\DomainLayer.csproj",
         "packagesPath": "C:\\Users\\jaydeep.sahu\\.nuget\\packages\\",
-        "outputPath": "D:\\OnionArchitecture\\WebAPI\\DomainLayer\\obj\\",
+        "outputPath": "D:\\Rx-Splitter\\RX-Splitter-API\\DomainLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jaydeep.sahu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,18 +97,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\OnionArchitecture\\WebAPI\\Repository Layer\\Repository Layer.csproj": {
+    "D:\\Rx-Splitter\\RX-Splitter-API\\Repository Layer\\Repository Layer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OnionArchitecture\\WebAPI\\Repository Layer\\Repository Layer.csproj",
+        "projectUniqueName": "D:\\Rx-Splitter\\RX-Splitter-API\\Repository Layer\\Repository Layer.csproj",
         "projectName": "Repository Layer",
-        "projectPath": "D:\\OnionArchitecture\\WebAPI\\Repository Layer\\Repository Layer.csproj",
+        "projectPath": "D:\\Rx-Splitter\\RX-Splitter-API\\Repository Layer\\Repository Layer.csproj",
         "packagesPath": "C:\\Users\\jaydeep.sahu\\.nuget\\packages\\",
-        "outputPath": "D:\\OnionArchitecture\\WebAPI\\Repository Layer\\obj\\",
+        "outputPath": "D:\\Rx-Splitter\\RX-Splitter-API\\Repository Layer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jaydeep.sahu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -125,8 +125,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\OnionArchitecture\\WebAPI\\DomainLayer\\DomainLayer.csproj": {
-                "projectPath": "D:\\OnionArchitecture\\WebAPI\\DomainLayer\\DomainLayer.csproj"
+              "D:\\Rx-Splitter\\RX-Splitter-API\\DomainLayer\\DomainLayer.csproj": {
+                "projectPath": "D:\\Rx-Splitter\\RX-Splitter-API\\DomainLayer\\DomainLayer.csproj"
               }
             }
           }
@@ -156,18 +156,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\OnionArchitecture\\WebAPI\\Service Layer\\Service Layer.csproj": {
+    "D:\\Rx-Splitter\\RX-Splitter-API\\Service Layer\\Service Layer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OnionArchitecture\\WebAPI\\Service Layer\\Service Layer.csproj",
+        "projectUniqueName": "D:\\Rx-Splitter\\RX-Splitter-API\\Service Layer\\Service Layer.csproj",
         "projectName": "Service Layer",
-        "projectPath": "D:\\OnionArchitecture\\WebAPI\\Service Layer\\Service Layer.csproj",
+        "projectPath": "D:\\Rx-Splitter\\RX-Splitter-API\\Service Layer\\Service Layer.csproj",
         "packagesPath": "C:\\Users\\jaydeep.sahu\\.nuget\\packages\\",
-        "outputPath": "D:\\OnionArchitecture\\WebAPI\\Service Layer\\obj\\",
+        "outputPath": "D:\\Rx-Splitter\\RX-Splitter-API\\Service Layer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jaydeep.sahu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -184,8 +184,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\OnionArchitecture\\WebAPI\\Repository Layer\\Repository Layer.csproj": {
-                "projectPath": "D:\\OnionArchitecture\\WebAPI\\Repository Layer\\Repository Layer.csproj"
+              "D:\\Rx-Splitter\\RX-Splitter-API\\Repository Layer\\Repository Layer.csproj": {
+                "projectPath": "D:\\Rx-Splitter\\RX-Splitter-API\\Repository Layer\\Repository Layer.csproj"
               }
             }
           }
@@ -225,7 +225,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

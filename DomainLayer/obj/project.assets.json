@@ -3715,11 +3715,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OnionArchitecture\\WebAPI\\DomainLayer\\DomainLayer.csproj",
+      "projectUniqueName": "D:\\Rx-Splitter\\RX-Splitter-API\\DomainLayer\\DomainLayer.csproj",
       "projectName": "DomainLayer",
-      "projectPath": "D:\\OnionArchitecture\\WebAPI\\DomainLayer\\DomainLayer.csproj",
+      "projectPath": "D:\\Rx-Splitter\\RX-Splitter-API\\DomainLayer\\DomainLayer.csproj",
       "packagesPath": "C:\\Users\\jaydeep.sahu\\.nuget\\packages\\",
-      "outputPath": "D:\\OnionArchitecture\\WebAPI\\DomainLayer\\obj\\",
+      "outputPath": "D:\\Rx-Splitter\\RX-Splitter-API\\DomainLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jaydeep.sahu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3805,7 +3805,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

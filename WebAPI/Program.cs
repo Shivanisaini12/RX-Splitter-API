@@ -1,4 +1,4 @@
-using DomainLayer.Data;
+//using DomainLayer.Data;
 using DomainLayer.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -23,15 +23,18 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllers();
 //Sql Dependency Injection
-var ConnectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(ConnectionString));
+var ConnectionString = builder.Configuration.GetConnectionString("conStrLocal");
+//var ConnectionString = builder.Configuration.GetConnectionString("conStrAzure");
+builder.Services.AddDbContext<RxSplitterContext>(options => options.UseSqlServer(ConnectionString));
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 #region Service Injected
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-builder.Services.AddScoped<ICustomService<Student>, StudentService>();
-builder.Services.AddScoped<ICustomService<Departments>, DepartmentsService>();
+builder.Services.AddScoped<IUserDetailService, UserDetailService>();
+
+//builder.Services.AddScoped<ICustomService<Student>, StudentService>();
+//builder.Services.AddScoped<ICustomService<Departments>, DepartmentsService>();
 builder.Services.AddTransient<ExceptionMiddleware>();
 #endregion
 # region APIVersioning
@@ -68,7 +71,7 @@ app.UseGlobalExceptionHandler();
 using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider
-        .GetRequiredService<ApplicationDbContext>();
+        .GetRequiredService<RxSplitterContext>();
 
     // Here is the migration executed
     dbContext.Database.Migrate();
